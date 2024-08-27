@@ -3,6 +3,7 @@
 <a href="https://victorjimenezmorales.es" target="_blank">Visit page here!</a>
 
 ## Table of Contents
+<<<<<<< HEAD
 
 -   [Project Overview](#project-overview)
 -   [Directory Structure](#directory-structure)
@@ -13,6 +14,17 @@
 
 ## Project Overview
 
+=======
+- [Project Overview](#project-overview)
+- [Directory Structure](#directory-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+>>>>>>> ec884d8bbb65052a0db204d9dad3bc14f7f866fe
 The Portfolio project is a personal website designed to showcase an individual's work, skills, and experience. The project includes several sections, such as an about page, a portfolio gallery, and a contact form.
 
 ## Directory Structure
