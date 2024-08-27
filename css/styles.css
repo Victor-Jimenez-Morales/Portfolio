@@ -114,7 +114,6 @@ main {
     flex-direction: column;
 }
 
-
 main > section {
     display: flex;
     flex-direction: column;
@@ -123,6 +122,10 @@ main > section {
     padding-inline: 25px;
     min-height: 100dvh;
     border-bottom: 1px solid var(--button-background);
+}
+
+main > section:last-of-type {
+    padding-bottom: 150px;
 }
 
 section h1 span,
