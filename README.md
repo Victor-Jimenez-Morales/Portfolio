@@ -46,7 +46,3 @@ After opening `index.html` in a web browser, navigate through the different sect
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
