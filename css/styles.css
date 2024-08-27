@@ -117,7 +117,7 @@ main {
 main > section {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     padding-block: 290px;
     padding-inline: 25px;
     min-height: 100dvh;
@@ -126,6 +126,7 @@ main > section {
 
 main > section:last-of-type {
     padding-bottom: 150px;
+    border-bottom: none;
 }
 
 section h1 span,
@@ -451,6 +452,33 @@ h1 {
 /*** Media Queries ***/
 /* Tabel view */
 @media screen and (min-width: 768px) {
+    .nav {
+        height: 100dvh;
+        width: 250px;
+        gap: 50px;
+    }
+
+    .nav-list-hide {
+        display: flex;
+    }
+
+    #hamburger-button {
+        display: none;
+    }
+
+    main {
+        margin-left: 250px;
+    }
+
+    main > section {
+        padding-block: 100px;
+        padding-inline: 25px;
+        min-height: 100dvh;
+    }
+
+    main > section:last-of-type {
+        padding-block: 100px;
+    }
 }
 
 /* Desktop view */

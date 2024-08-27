@@ -21,3 +21,23 @@ navList.forEach((navLink) => {
         toggleNavMenu();
     };
 });
+
+const sections = document.querySelectorAll("main > section");
+
+window.onscroll = () => {
+    let current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (scrollY >= sectionTop - 120) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navList.forEach((navLink) => {
+        navLink.classList.remove("nav-link-active");
+        if (navLink.classList.contains(current)) {
+            navLink.classList.add("nav-link-active");
+        }
+    });
+};
