@@ -2,7 +2,7 @@
 
 This is the official README for the Portfolio project, a personal web-based portfolio to showcase projects and skills.
 
-<a href="https://victor-jimenez-morales.github.io/Burger-s-Masters/" target="_blank">Visit page here!</a>
+<a href="https://victorjimenezmorales.es" target="_blank">Visit page here!</a>
 
 ## Table of Contents
 - [Project Overview](#project-overview)
