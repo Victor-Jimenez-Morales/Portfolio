@@ -1,7 +1,5 @@
 # Portfolio - README
 
-This is the official README for the Portfolio project, a personal web-based portfolio to showcase projects and skills.
-
 <a href="https://victorjimenezmorales.es" target="_blank">Visit page here!</a>
 
 ## Table of Contents
