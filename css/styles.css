@@ -483,4 +483,14 @@ h1 {
 
 /* Desktop view */
 @media screen and (min-width: 960px) {
+    .project-list {
+        justify-content: start;
+    }
+
+    #section-aboutme > p,
+    #section-skills > section,
+    #section-contact > section,
+    .table {
+        width: 75%;
+    }
 }
