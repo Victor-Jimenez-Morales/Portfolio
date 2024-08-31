@@ -275,15 +275,12 @@ h1 {
     padding: 10px 5px;
 }
 
-.table td:first-child {
-    text-wrap: nowrap;
-}
-
 .table td > p:first-child {
     background-color: var(--nav-link);
     padding: 5px 8px;
     border-radius: 5px;
     border-left: 4px solid var(--button-background);
+    margin-bottom: 7px;
 }
 
 .table td a {
@@ -487,14 +484,16 @@ h1 {
         justify-content: start;
     }
 
+    #section-contact article p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
     #section-aboutme > p,
     #section-skills > section,
     #section-contact > section,
     .table {
-        width: 75%;
-    }
-
-    #section-contact article p {
-        font-size: 0.9rem;
+        width: 85%;
     }
 }
